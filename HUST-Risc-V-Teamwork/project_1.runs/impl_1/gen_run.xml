@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1699277877">
+  <File Type="ROUTE-PWR" Name="CPU_RISCV_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="CPU_RISCV.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="CPU_RISCV_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="CPU_RISCV_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="CPU_RISCV_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="CPU_RISCV.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="CPU_RISCV_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="CPU_RISCV_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="CPU_RISCV_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="CPU_RISCV_opt.dcp"/>
+  <File Type="OPT-DRC" Name="CPU_RISCV_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="CPU_RISCV.hwdef"/>
+  <File Type="PWROPT-DCP" Name="CPU_RISCV_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="CPU_RISCV_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="CPU_RISCV_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="CPU_RISCV_placed.dcp"/>
+  <File Type="PLACE-IO" Name="CPU_RISCV_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="CPU_RISCV_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="CPU_RISCV_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="CPU_RISCV_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="CPU_RISCV_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="CPU_RISCV_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CPU_RISCV_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="CPU_RISCV.bin"/>
+  <File Type="PLACE-TIMING" Name="CPU_RISCV_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="CPU_RISCV_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="CPU_RISCV_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CPU_RISCV_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="CPU_RISCV.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="CPU_RISCV_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="CPU_RISCV_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="CPU_RISCV_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="CPU_RISCV.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="CPU_RISCV_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="CPU_RISCV_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="CPU_RISCV_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CPU_RISCV_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="CPU_RISCV_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="CPU_RISCV_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="CPU_RISCV_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="CPU_RISCV_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="CPU_RISCV_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CPU_RISCV_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="CPU_RISCV_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="CPU_RISCV_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="CPU_RISCV_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="CPU_RISCV_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="CPU_RISCV_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="CPU_RISCV_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="CPU_RISCV_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="CPU_RISCV_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="CPU_RISCV_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="CPU_RISCV_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="CPU_RISCV_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CPU_RISCV_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CPU_RISCV_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="CPU_RISCV_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="CPU_RISCV_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="CPU_RISCV_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="CPU_RISCV_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="CPU_RISCV.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="CPU_RISCV_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="CPU_RISCV_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="CPU_RISCV.nky"/>
+  <File Type="BITSTR-BMM" Name="CPU_RISCV_bd.bmm"/>
+  <File Type="PDI-FILE" Name="CPU_RISCV.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="CPU_RISCV_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="CPU_RISCV_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="CPU_RISCV.rcfi"/>
+  <File Type="CFI_FILE" Name="CPU_RISCV.cfi"/>
+  <File Type="RNPI_FILE" Name="CPU_RISCV.rnpi"/>
+  <File Type="NPI_FILE" Name="CPU_RISCV.npi"/>
+  <File Type="RBD_FILE" Name="CPU_RISCV.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="CPU_RISCV.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="CPU_RISCV.sysdef"/>
+  <File Type="BG-BGN" Name="CPU_RISCV.bgn"/>
+  <File Type="BG-DRC" Name="CPU_RISCV.drc"/>
+  <File Type="RDI-RDI" Name="CPU_RISCV.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="CPU_RISCV_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="CPU_RISCV_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/risc-V/ALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../risc-V/ALU.v"/>
+        <Attr Name="ImportTime" Val="1694498449"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/risc-V/FPGADigit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../risc-V/FPGADigit.v"/>
+        <Attr Name="ImportTime" Val="1694497523"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Interrupt.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/VGA.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/risc-V/extender.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../risc-V/extender.v"/>
+        <Attr Name="ImportTime" Val="1694494956"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/risc-V/hard_wire_controller.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../risc-V/hard_wire_controller.v"/>
+        <Attr Name="ImportTime" Val="1694494505"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/risc-V/memory.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../risc-V/memory.v"/>
+        <Attr Name="ImportTime" Val="1694498421"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/risc-V/multiuse.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../risc-V/multiuse.v"/>
+        <Attr Name="ImportTime" Val="1694494083"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/risc-V/shifter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../risc-V/shifter.v"/>
+        <Attr Name="ImportTime" Val="1694494621"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/risc-V/CPU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../risc-V/CPU.v"/>
+        <Attr Name="ImportTime" Val="1694498408"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CPU_RISCV"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/risc-V/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1491987576"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/CPU_RISCV.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>
